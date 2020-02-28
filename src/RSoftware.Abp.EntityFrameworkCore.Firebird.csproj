@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace />
+    <Version>2.1.1</Version>
+    <Description>Firebird database integration package for ABP Framework</Description>
+    <Copyright>Copyright © rybalko.software</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/RybalkoSoftware</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/RybalkoSoftware/RSoftware.Abp.EntityFrameworkCore.Firebird</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>web abp integration firebird database sql</PackageTags>
+    <PackageLicenseFile></PackageLicenseFile>
+    <Company>RybalkoSoftware</Company>
+    <Authors>romkij</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ConfigureAwait.Fody" Version="3.3.1" />
+    <PackageReference Include="FirebirdSql.EntityFrameworkCore.Firebird" Version="7.5.0" />
+    <PackageReference Include="Fody" Version="6.1.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore" Version="2.1.1" />
+  </ItemGroup>
+
+</Project>
