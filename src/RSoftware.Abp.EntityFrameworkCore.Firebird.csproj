@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace />
-    <Version>2.7.0</Version>
+    <Version>2.8.0</Version>
     <Description>Firebird database integration package for ABP Framework</Description>
     <Copyright>Copyright © rybalko.software</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -14,8 +14,8 @@
     <PackageLicenseFile></PackageLicenseFile>
     <Company>RybalkoSoftware</Company>
     <Authors>romkij</Authors>
-    <AssemblyVersion>2.7.0.0</AssemblyVersion>
-    <FileVersion>2.7.0.0</FileVersion>
+    <AssemblyVersion>2.8.0.0</AssemblyVersion>
+    <FileVersion>2.8.0.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -25,7 +25,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Volo.Abp.EntityFrameworkCore" Version="2.7.0" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore" Version="2.8.0" />
   </ItemGroup>
 
 </Project>
